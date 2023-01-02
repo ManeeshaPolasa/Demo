@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:5500/index.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Portfolio website
+        </title>
+        
+        
+    
+    
+    
+    <link rel="stylesheet" type="text/css" href="./Portfolio website_files/style.css"><link rel="preconnect" href="https://fonts.gstatic.com/"><link rel="stylesheet" href="./Portfolio website_files/css"><link href="./Portfolio website_files/css2" rel="stylesheet"><link rel="stylesheet" href="./Portfolio website_files/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer"></head>
+    <body>
+        <div class="one">
+            <nav>
+                <h2 class="logo">Portfo<span>lio</span></h2>
+                <ul>
+                    <li><a href="http://127.0.0.1:5500/index.html#">Home</a></li>
+                    <li><a href="http://127.0.0.1:5500/index.html#">About Us</a></li>
+                        <li><a href="http://127.0.0.1:5500/index.html#">Services</a></li>
+                            <li><a href="http://127.0.0.1:5500/index.html#">Skills</a></li>
+                                <li><a href="http://127.0.0.1:5500/index.html#">Contact Us</a></li>
+                                </ul>
+                                <a href="http://127.0.0.1:5500/index.html#" class="button">Subscribe</a>
+            </nav>
+
+            <div class="content">
+            <h4> Helloo, this is</h4>
+            <h1>Maneesha <span>Polasa</span></h1>
+            <h3>I'm a Student &amp; Web Developer. </h3>
+            <div class="newlatter">
+                <form>
+                    <input type="email" name="email" id="mail" placeholder="Enter Your Email">
+                    <input type="submit" name="submit" value="Lets Start">
+                </form>
+            </div>
+        </div>
+        </div>
+        <!---About section start--->
+        <section class="about">
+            <div class="main">
+                <img src="./Portfolio website_files/abcd.jpg">
+                <div class="about-text">
+                    <h2>About Me</h2>
+                    <h5>Student<span> &amp; Web Developer.</span></h5>
+                    <p>Iam a Student at Vardhaman College of Engineering and currently working on my B.Tech Information Technology seeking a competitive and challenging Environment where I can serve your organization and establish a career for myself.To secure a challenging position in a reputable organization to make use of my programming technical and management skills to achieve company goals along with personal goals which focuses on improving me as a better person and expans my knowledge.  </p>
+                    <button type="button">Let's Talk</button>
+                </div>     
+            </div>
+        </section>
+        <!---sevice--->
+        <div class="service">
+            <div class="title">
+              <h2>Hobbies &amp; Strength</h2>  
+        </div>
+        <div class="box">
+
+        <div class="card">
+            <i class="fa-solid fa-music"></i>
+            <h5>Listening Music</h5>
+        <div class="pra">
+            <p>I activate the music player on my phone whenever I'm bored.I find that listening to music always makes me feel better after a long day of work. I feel quite relaxed and sleep well if I listen to music even before going to bed. </p>
+            <p style="text-align: center;">
+               
+            </p>
+        </div>
+        </div>
+        <div class="card">
+            <i class="fa-solid fa-bell"></i>
+            <h5>Strengths and Skills</h5>
+        <div class="pra">
+            <p>Leadership skills
+                <br> Time management
+                <br>Team Work
+            </p>
+            <p style="text-align: center;">
+                
+            </p>
+        </div>
+        </div>
+        </div>
+    </div>   
+       <!--contact-->
+       <div class="contact-me">
+        <p> Let Me get You A Beautiful Website.</p>
+        <a class="button-two" href="http://127.0.0.1:5500/index.html#">Hire Me</a>
+       </div>
+       <!---footer--><footer>
+       <p> Maneesha Polasa</p>
+       <p>contact me</p>
+       <div class="social">
+        <a href="https://www.instagram.com/_minionsha5/"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/maneesha-polasa-b390b222b"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://www.gmail.com/in/maneeshaminion55@gmail.com/"><i class="fa-solid fa-envelope"></i></a>
+       </div>
+       <p class="end">maneeshapolasa21it@student.Vardhaman.org</p>
+    </footer>
+    <!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
